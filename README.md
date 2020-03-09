@@ -51,7 +51,11 @@ The figure below illustrates this behavior using an example.
 ### More Notes
 
 Apacuka
+<<<<<<< HEAD
 edit
+=======
+edit mégegyszer
+>>>>>>> branch-B
 ### Even more notes
 
 Fundaluka

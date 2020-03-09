@@ -52,7 +52,7 @@ public class TrainSystemTest {
 	@Test
 	public void SimpleTest(){
 		sensor.overrideSpeedLimit(10);
-		Assert.assertEquals(0, controller.getReferenceSpeed());
+		Assert.assertEquals(1, controller.getReferenceSpeed());
 	}
 	
 }

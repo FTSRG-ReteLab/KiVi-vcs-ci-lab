@@ -21,6 +21,7 @@ public class TrainControllerImpl implements TrainController {
 		}
 
 		enforceSpeedLimit();
+		int i = 0; //This is the change
 	}
 
 	@Override

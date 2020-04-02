@@ -9,6 +9,7 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
+
 	private Timer t;
 
 	public TrainControllerImpl(){
@@ -20,7 +21,10 @@ public class TrainControllerImpl implements TrainController {
 			}
 		} , 2000, 2000);
 	}
-
+}
+			}
+		};
+	}
 	@Override
 	public void followSpeed() {
 		if (referenceSpeed < 0) {
